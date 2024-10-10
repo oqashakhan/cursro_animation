@@ -1,0 +1,52 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    height: 100vh;
+    width: 100%;
+    background: #1e1e1e;
+    overflow: hidden;
+    display: flex;
+   flex-wrap: wrap;
+}
+.box{
+    height: 24px;
+    width: 24px;
+    background: transparent;
+    border: 1px solid black;
+    transition: ease-in-out 2s ;
+    cursor: pointer;
+    
+}
+.box:hover{
+    transition: ease-in-out 0s ;
+    
+}
+.box:nth-child(9n +1):hover{
+    border:2px solid red;
+}
+.box:nth-child(9n +2):hover{
+    border:2px solid rgb(0, 225, 255);
+}
+.box:nth-child(9n +3):hover{
+    border:2px solid rgb(0, 255, 13);
+}
+.box:nth-child(9n +4):hover{
+    border:2px solid rgb(0, 162, 255);
+}
+.box:nth-child(9n +5):hover{
+    border:2px solid rgb(255, 238, 0);
+}
+.box:nth-child(9n +6):hover{
+    border:2px solid rgb(255, 0, 255);
+}
+.box:nth-child(9n +7):hover{
+    border:2px solid rgb(255, 0, 85);
+}
+.box:nth-child(9n +8):hover{
+    border:2px solid rgb(0, 255, 128);
+}
+.box:nth-child(9n +9):hover{
+    border: 2px solid rgb(255, 255, 255);
+}
